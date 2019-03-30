@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title>
+      {{page2Title}}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let post of allPosts">
+    <ion-card-content>
+        {{post}}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
